@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.content {
+  margin: 60px 0;
+}
+
+.transaction-form {
+  margin: 60px 0;
+  padding: 20px;
+  background-color: rgba(236, 158, 64, 0.131);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(41, 41, 41, 0.402);
+}
+
+.transaction-form > form > button {
+  width: 100%;
+}
+.content {
+  padding-right: 20px;
+}
+
+.transaction-card {
+  padding: 25px;
+  margin: 10px 0;
+  border-left: 4px solid rgb(236, 159, 64);
+  box-shadow: 2px 2px 5px rgba(41, 41, 41, 0.402);
+}
+
+.transaction-card {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  padding-right: 50px;
+}
+
+.transaction-card > p:nth-child(2) {
+  font-weight: bold;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  background-color: rgba(236, 158, 64, 0.654);
+  border: none;
+  cursor: pointer;
+}

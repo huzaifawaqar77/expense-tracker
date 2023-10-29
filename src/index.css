@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  max-width: 1140px;
+  margin: 20px auto;
+}
+.btn {
+  border: 2px solid rgb(236, 159, 64);
+  color: #444;
+  background-color: transparent;
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: rgb(236, 159, 64);
+  color: #fff;
+}
+
+.error {
+  color: rgba(249, 114, 96, 0.88);
+  font-size: 1.2em;
+  margin-top: 5px;
+  border: 1px solid rgba(249, 114, 96, 0.88);
+  background-color: rgba(249, 114, 96, 0.25);
+  border-radius: 4px;
+  padding: 5px;
+}
